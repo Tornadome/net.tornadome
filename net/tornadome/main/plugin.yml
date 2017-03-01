@@ -1,0 +1,13 @@
+name: FakeOP
+version: 1.0
+author: Tornadome_v4
+main: net.tornadome.main.Main
+commands:
+  fakeop:
+    description: Send a fake OP message to a player.
+    default: op
+    permission: fakeop.main
+    permission-message: No permission.
+permissions:
+    fakeop.main:
+         description: Able to use /fakeop

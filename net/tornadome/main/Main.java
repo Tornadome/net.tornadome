@@ -16,7 +16,7 @@ public void onEnable() {
 	
 	
 public boolean onCommand(CommandSender sender, Command command, String Label, String[] args){
-	if(command.getName().equalsIgnoreCase("fakeop") && sender.hasPermission("fakeop.ain"));
+	if(command.getName().equalsIgnoreCase("fakeop") && sender.hasPermission("fakeop.main"));
 		if (args.length == 0) {
 			sender.sendMessage(ChatColor.RED + "Please specify a player!");
 			return true;
